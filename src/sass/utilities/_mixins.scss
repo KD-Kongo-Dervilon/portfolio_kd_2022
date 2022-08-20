@@ -1,0 +1,55 @@
+@mixin flexMid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------Interpolation Parametre---------*/
+@mixin margin($position, $unit) {
+    margin-#{$position} : $unit + rem;
+}
+
+/*------------margin Parametre---------*/
+@mixin marginGeneral($top, $bottom, $left, $right){
+    margin: $top, $bottom, $left, $right;
+}
+
+/*------------Box-shadow Parametre---------*/
+@mixin box-shadow($top, $left, $blur, $color) {
+    box-shadow: $top, $left, $blur, $color;
+}
+
+/*------------Flexbox Parametre------------*/
+@mixin flexBox($directionValue: row,  $justifyValue: center, $alignValue: center) {
+    display: flex;
+    flex-direction: $directionValue;
+    justify-content: $justifyValue;
+    align-items: $alignValue;
+}
+
+
+/*--------------Mediaquerie ---------------*/
+
+@mixin mediaQueries($key){
+	$size: map-get($breakpoints, $key);
+
+	@media screen and (min-width: $size) {
+		@content;
+	}
+}
+
+@mixin media($size){
+	@media screen and (max-width: $size) {
+		@content;
+	}
+}
+
+
+/*--------------border-raduis parametre -----------*/
+@mixin bd-radius($value){
+    border-radius: $value;
+}
+
+
+
+
