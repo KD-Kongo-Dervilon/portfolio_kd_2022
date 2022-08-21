@@ -1,4 +1,5 @@
 @use '../utilities/_colors.scss' as *;
+@use '../utilities/_variables.scss' as *;
 
 .button {
     background: $color-3;

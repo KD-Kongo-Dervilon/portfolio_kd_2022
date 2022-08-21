@@ -1,3 +1,5 @@
+@use "../utilities/_colors.scss" as *;
+
 // H2 notfound
 h2 {
     &:after {
@@ -24,8 +26,114 @@ h2 {
 // H3 notfound 
 h3 {
     transition: .4s;
-
+    
     &:hover {
         transform: scale(1.3);
     }
+}
+
+// Home 
+.home {
+
+    &:after {
+        content: '';
+        height: 800px;
+        width: 800px;
+        background: $color-3;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -480px;
+        right: 0px;
+        z-index: -2;
+        animation: homeAnim 26s infinite alternate;
+        box-shadow: 2px 2px 2px  #000;
+    }
+
+    @media screen and (max-width: 650px){
+        height: 400px;
+        width: 400px;
+        bottom: -270px;
+    }
+
+    @keyframes homeAnim {
+        50% {
+            transform: scale(0.8);
+        }
+        100% {
+            transform: scale(1.1);
+        }
+    }
+    
+    @media screen and (max-width: 430px){
+        display: none;
+    }
+}
+
+//main-content 
+.home {
+    .main-content {
+        
+        h1 {
+            
+        &:before {
+            content: '';
+            position: absolute;
+            height: 225px;
+            width: 225px;
+            border-radius: 50%;
+            border: 1px $color-3 solid;
+            top: -40px;
+            left: -180px;
+            z-index: -1;
+            animation: h1Anim 1.5s forwards ease;
+            transform: scale(0);
+
+            @media screen and (max-width: 850px){
+                height: 110px;
+                width: 110px;
+                left: -40px;
+                top: -15px;
+            }
+
+            @keyframes h1Anim {
+                to {
+                        transform: scale(1);
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+//animation nav 
+.navigation {
+    &:before {
+        @keyframes navAnim {
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        @media screen and (max-width: 430px){
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+    .nav-active {
+        color: $black;
+    }
+    
+    ul:hover li:not(:hover) {
+        opacity: .5;
+    }
+    
+    ul:hover li:hover {
+        color: $black;
+    }
+    
 }

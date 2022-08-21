@@ -1,5 +1,9 @@
+@use '../utilities/_mixins.scss';
+
 .notFound {
     height:100vh;
-    @include flexMid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }

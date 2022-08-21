@@ -8,13 +8,13 @@
 // Fonts Questrial
 @font-face {
     font-family: "font-1";
-    src: url(../assets/fonts/Questrial-Regular.ttf);
+    src: url(../../assets/fonts/Questrial-Regular.ttf);
 }
 
 // Fonts Michroma
 @font-face {
     font-family: "font-2";
-    src: url(../assets/fonts/Michroma-Regular.ttf);
+    src: url(../../assets/fonts/Michroma-Regular.ttf);
 }
 
 /*========Typography Variable===========*/ 
@@ -24,7 +24,20 @@ $font-2: "font-2", serif;
 $font-bold: bold;
 $font-normal: normal;
 
-/*========Typography header ===========*/
+/*========Typography main ===========*/
+h1 {
+    font-size: $font-size-main;
+    position: relative;
+    font-family: $font-2;
+
+    @media screen and (max-width: 650px){
+        font-size: 2rem;
+    }
+
+    @media screen and (min-width: 1200px){
+        font-size: 5rem;
+    }
+}
 
 
 /*========Typography heading h2 ===========*/ 
@@ -34,6 +47,25 @@ h2 {
     padding: $padding-notfound;
     color: $color-1;
 }
+
+//main-content
+.home-main {
+    .main-content {
+        h2 {
+            font-size: $font-size-main-h2;
+            font-weight: 100;
+
+            @media screen and (max-width: 650px){
+                font-size: 2rem;
+            }
+
+            @media screen and (min-width: 1200px){
+                font-size: 5rem;
+            }
+        }
+    }
+}
+
 
 /*========Typography heading h3 ===========*/ 
 // H3 notfound
