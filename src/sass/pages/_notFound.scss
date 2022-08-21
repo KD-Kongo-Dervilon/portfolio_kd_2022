@@ -1,4 +1,6 @@
 @use '../utilities/_mixins.scss';
+@use '../utilities/_variables.scss';
+@use '../utilities//_colors.scss';
 
 .notFound {
     height:100vh;
@@ -6,4 +8,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    .fas {
+        margin-left: 0.5rem;
+        color: hsl(0, 0%, 55%);
+    }
 }
