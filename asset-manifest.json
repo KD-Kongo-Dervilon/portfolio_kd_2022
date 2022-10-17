@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio_kd_2022%20/static/css/main.ac64b3ca.css",
-    "main.js": "/portfolio_kd_2022%20/static/js/main.f37562b2.js",
-    "static/media/Questrial-Regular.ttf": "/portfolio_kd_2022%20/static/media/Questrial-Regular.96dd668fc36d87af7f89.ttf",
-    "static/media/Michroma-Regular.ttf": "/portfolio_kd_2022%20/static/media/Michroma-Regular.c12a12d1198168c85097.ttf",
-    "static/media/Logo.svg": "/portfolio_kd_2022%20/static/media/Logo.866f4cc550a2da507d838e1583fcc7f2.svg",
-    "index.html": "/portfolio_kd_2022%20/index.html",
-    "main.ac64b3ca.css.map": "/portfolio_kd_2022%20/static/css/main.ac64b3ca.css.map",
-    "main.f37562b2.js.map": "/portfolio_kd_2022%20/static/js/main.f37562b2.js.map"
+    "main.css": "/portfolio_kd_2022/static/css/main.7c5eab69.css",
+    "main.js": "/portfolio_kd_2022/static/js/main.9ea79138.js",
+    "static/media/Questrial-Regular.ttf": "/portfolio_kd_2022/static/media/Questrial-Regular.96dd668fc36d87af7f89.ttf",
+    "static/media/Michroma-Regular.ttf": "/portfolio_kd_2022/static/media/Michroma-Regular.c12a12d1198168c85097.ttf",
+    "static/media/Logo.svg": "/portfolio_kd_2022/static/media/Logo.866f4cc550a2da507d838e1583fcc7f2.svg",
+    "index.html": "/portfolio_kd_2022/index.html",
+    "main.7c5eab69.css.map": "/portfolio_kd_2022/static/css/main.7c5eab69.css.map",
+    "main.9ea79138.js.map": "/portfolio_kd_2022/static/js/main.9ea79138.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac64b3ca.css",
-    "static/js/main.f37562b2.js"
+    "static/css/main.7c5eab69.css",
+    "static/js/main.9ea79138.js"
   ]
 }
