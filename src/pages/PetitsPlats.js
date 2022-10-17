@@ -6,18 +6,18 @@ import Buttons from '../components/Buttons';
 import Projects from "../components/Projects";
 
 
-const Kasa = () => {
+const PetitsPlats = () => {
     return (
         <main>
             <Mouse/>
             <div className="project">
                 <Navigation/>
                 <Logo/>
-                <Projects projectNumber={4}/>
-                <Buttons left={"/petitplat"} right={"/sportsee"}/>
+                <Projects projectNumber={3}/>
+                    <Buttons left={"/fisheye"} right={"/kasa"}/>
             </div>
         </main>
     );
 };
 
-export default Kasa;
+export default PetitsPlats;
