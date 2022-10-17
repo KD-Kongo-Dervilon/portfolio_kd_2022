@@ -1,8 +1,9 @@
 {
-  "homepage": "http://KD-Kongo-Dervilon.github.io/portfolio_kd_2022 ",
-  "name": "portfolio_kd_2022",
+  "homepage": "http://KD-Kongo-Dervilon.github.io/portfolio_kd_2022",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "author": "KD KD-Kongo-Dervilon",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.5",
