@@ -19,7 +19,7 @@ const App = () => {
     <BrowserRouter>
     <AnimatePresence>
       <Routes>
-        <Route path="/portfolio_kd_2022" element={< Home/>} />
+        <Route path="/portfolio_kd_2022 " element={< Home/>} />
         <Route path="/" element={< Home/>} />
         <Route path="/reservia" element={< Reservia/>} />
         <Route path="/ohmyfood" element={< OhmyFood/>} />
