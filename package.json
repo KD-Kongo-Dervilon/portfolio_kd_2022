@@ -1,6 +1,6 @@
 {
   "homepage": "http://KD-Kongo-Dervilon.github.io/portfolio_kd_2022",
-  "name": "dervilon",
+  "name": "portfolio_kd_2022",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,8 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
